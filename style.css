@@ -62,7 +62,38 @@ body {
   color: green;
 }
 
-.container img {
-  margin-left: 15rem;
-  border-radius: 50px;
+.navbar-bonus {
+    margin-top: 6rem;
+    background-color: green;
+}
+.navbar-bonus h3{
+    color: #fff;
+    height: 2.5rem;
+    margin-left: 5rem;
+}
+
+.rewards .easy-start {
+    text-align: center;
+    margin-top: 5rem;
+}
+.rewards .easy-start h1 {
+    color: #010101;
+}
+
+.rewards .easy-start p {
+    color: #010101;
+    margin-top: 2rem;
+}
+
+.rewards .row {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.rewards .row .row-name {
+    color: #010101;
+    text-align: center;
+    margin-left: 5rem;
+    margin-bottom: 10rem;
 }
