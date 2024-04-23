@@ -62,38 +62,69 @@ body {
   color: green;
 }
 
-.navbar-bonus {
-    margin-top: 6rem;
-    background-color: green;
-}
-.navbar-bonus h3{
-    color: #fff;
-    height: 2.5rem;
-    margin-left: 5rem;
+.menu {
+  margin-top: 10rem;
+  margin-left: 5rem;
 }
 
-.rewards .easy-start {
-    text-align: center;
-    margin-top: 5rem;
-}
-.rewards .easy-start h1 {
-    color: #010101;
+.menu h1 {
+  color: #010101;
 }
 
-.rewards .easy-start p {
-    color: #010101;
-    margin-top: 2rem;
+.menu h3 {
+  color: #010101;
+  margin-top: 2rem;
 }
 
-.rewards .row {
-    margin-top: 4rem;
-    display: flex;
-    justify-content: center;
+.menu .row-img-first {
+  display: flex;
+  color: #010101;
+  margin-right: 2rem;
 }
 
-.rewards .row .row-name {
-    color: #010101;
-    text-align: center;
-    margin-left: 5rem;
-    margin-bottom: 10rem;
+.menu .row-img-first .row-img-name {
+  display: flex;
+  color: #010101;
+  margin-right: 2rem;
+}
+
+.menu .row-img-first .row-img-name img {
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 2rem;
+}
+
+.menu .row-img-first .row-img-name p {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.menu .row-img-second {
+  display: flex;
+  color: #010101;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+.menu .row-img-second .row-img-name {
+  display: flex;
+  color: #010101;
+  margin-right: 2rem;
+}
+
+.menu .row-img-second .row-img-name img {
+  width: 200px;
+  border-radius: 200px;
+  margin-top: 2rem;
+}
+
+.menu .row-img-second .row-img-name p {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+}
+
+.menu .row-img-first .row-img-name img:hover {
+  transform: scale(1.2);
 }
