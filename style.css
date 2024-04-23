@@ -26,61 +26,119 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem 7%;
-  background-color: #fff;
+  background-color: transparent;
   box-shadow: 10px #010101;
   border: 0.5px solid #010101;
   position: fixed;
-  width: 120rem;
+  width: 130rem;
   top: 0;
   left: 0;
   right: 0;
+  margin-left: -6rem;
+}
+.login-box {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 500px;
+  height: 550px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(5px);
+  background: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px #010101;
+  color: #fff;
+  border-radius: 10px;
+  padding-top: 3rem;
 }
 
-.navbar .navbar-nav-first {
-  margin-left: -57rem;
+.login-box H1 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: var(--bg);
+  text-align: center;
 }
 
-.navbar .navbar-nav-first a {
-  display: inline-block;
-  margin: 0 1rem;
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 400px;
+  height: 30px;
+  padding: 10px 0;
+  font-size: 16px;
   color: #010101;
-  font-size: 1.3rem;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 1rem;
+}
+.login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #101010;
+  pointer-events: none;
+  transition: 0.5s;
+  padding-left: 1rem;
+  padding-top: 1rem;
 }
 
-.navbar .navbar-nav-first a:hover {
-  color: green;
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  color: #fff;
+  opacity: 0.1;
 }
 
-.navbar .navbar-nav-second a {
+.login-box form a {
+  position: relative;
   display: inline-block;
-  margin: 0 1rem;
+  padding: 10px 20px;
   color: #010101;
-  font-size: 1.3rem;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  margin-top: 40px;
+  letter-spacing: 4px;
+  background-color: #fff;
+  border-radius: 20px;
 }
 
-.navbar .navbar-nav-second a:hover {
+.signup-link {
+  margin-top: 2rem;
+}
+.signup-link a {
   color: green;
+  font-size: 1rem;
 }
 
-
-
-.container {
-    margin-top: 10rem;
-    color: #010101;
-    margin-left: 2rem;
+.signup-link a:hover {
+  color: #010101;
 }
 
-.container .row-card {
-    display: flex;
-    margin-top: 5rem;
-    margin-left: 12rem;
+.signup-link-second a {
+  color: green;
+  font-size: 1rem;
 }
 
-.container .row-card img {
-    border-radius: 30px;
-    margin-left: 5rem;
+.signup-link-second a:hover {
+  color: #010101;
 }
 
-.container .row-card img:hover {
-  transform: scale(1.2);
+.login-btn {
+  background-color: green;
+  text-align: center;
+  margin-left: 16rem;
+  border-radius: 30px;
+  height: 50px;
+  width: 10rem;
+  box-shadow: 5px 5px 5px #010101;
 }
