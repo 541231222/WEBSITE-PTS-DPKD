@@ -62,69 +62,25 @@ body {
   color: green;
 }
 
-.menu {
-  margin-top: 10rem;
-  margin-left: 5rem;
+
+
+.container {
+    margin-top: 10rem;
+    color: #010101;
+    margin-left: 2rem;
 }
 
-.menu h1 {
-  color: #010101;
+.container .row-card {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: 12rem;
 }
 
-.menu h3 {
-  color: #010101;
-  margin-top: 2rem;
+.container .row-card img {
+    border-radius: 30px;
+    margin-left: 5rem;
 }
 
-.menu .row-img-first {
-  display: flex;
-  color: #010101;
-  margin-right: 2rem;
-}
-
-.menu .row-img-first .row-img-name {
-  display: flex;
-  color: #010101;
-  margin-right: 2rem;
-}
-
-.menu .row-img-first .row-img-name img {
-  width: 200px;
-  border-radius: 200px;
-  margin-top: 2rem;
-}
-
-.menu .row-img-first .row-img-name p {
-  margin-top: 5rem;
-  margin-left: 2rem;
-  font-size: 2rem;
-}
-
-.menu .row-img-second {
-  display: flex;
-  color: #010101;
-  margin-right: 2rem;
-  margin-top: 2rem;
-}
-
-.menu .row-img-second .row-img-name {
-  display: flex;
-  color: #010101;
-  margin-right: 2rem;
-}
-
-.menu .row-img-second .row-img-name img {
-  width: 200px;
-  border-radius: 200px;
-  margin-top: 2rem;
-}
-
-.menu .row-img-second .row-img-name p {
-  margin-top: 5rem;
-  margin-left: 2rem;
-  font-size: 2rem;
-}
-
-.menu .row-img-first .row-img-name img:hover {
+.container .row-card img:hover {
   transform: scale(1.2);
 }
